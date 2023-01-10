@@ -142,7 +142,7 @@ header {
 MAIN
 ************/
 
-/* first section */
+/* first section of card */
 
 .card {
     background-color: var(--lightblue);
@@ -207,4 +207,36 @@ MAIN
     border-radius: 50px;
     color: white;
     margin-top: 20px;
+}
+
+
+/* second section of planning and development */
+
+.container-planning {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+.background-container {
+    background-color: var(--purple);
+}
+
+.row-planning,.row-white-planning {
+    gap: 50px;
+    flex-wrap: nowrap;
+}
+
+.col-50 {
+    flex-basis: 50%;
+}
+
+.col-50 h3 {
+    padding-top: 100px;
+    padding-bottom: 35px;
+    color: white;
+}
+
+.col-50 p {
+    color: white;
 }
