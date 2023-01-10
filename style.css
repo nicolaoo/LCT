@@ -18,6 +18,7 @@ img {
     --purple: rgb(151,146,228);
     --dark: rgb(51,51,51);
     --yellow: rgb(253,193,95);
+    --grey: rgb(103,125,144);
 }
 
 .container {
@@ -96,7 +97,63 @@ MAIN
 .card {
     background-color: var(--lightblue);
     padding: 20px;
-    min-height: 50px;
-    border: 1px solid;
     border-radius: 20px;
+    text-align: center;
+}
+
+.col-3 {
+    flex-basis: calc(100% / 3);
+}
+
+.col-2 {
+    flex-basis: calc(100% * 2/3);
+}
+
+.row-card {
+    gap: 20px;
+}
+
+.name-card {
+    color: var(--blue);
+    padding: 10px 0;
+}
+
+.col-3 i {
+    font-size: 50px;
+    color: var(--blue);
+}
+
+.card p {
+    color: var(--grey);
+}
+
+.align-card-phone {
+    padding-bottom: 0;
+}
+
+.part-left {
+    flex-basis: 50%;
+    text-align: left;
+}
+
+.phone {
+    flex-basis: 50%;
+    padding: 0 40px;
+}
+
+.part-left > p {
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+
+.phone > img {
+    margin-bottom: -5px;
+}
+
+.btn-apple {
+    background-color: var(--blue);
+    padding: 6px 45px;
+    border-radius: 50px;
+    color: white;
+    margin-top: 20px;
 }
