@@ -34,12 +34,34 @@ ul {
     flex-wrap: wrap;
 }
 
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.col-nav > i {
+   display: none;
+}
+
+@media screen and (max-width: 810px) {
+    
+    .nav-item,
+    .btn-nav {
+        display: none;
+    }
+
+    .col-nav > i {
+        color: white;
+    }
+}
+
 /********** 
 HEADER
 ************/
 
 header {
     background-color: var(--blue);
+    padding: 19px 0;
 }
 
 .col-nav {
@@ -49,15 +71,18 @@ header {
 .row-nav {
     justify-content: space-between;
     gap: 20px;
-    align-items: center;
     color: white;
 }
 
 .list-nav {
     display: flex;
     gap: 30px;
+    align-items: center;
 }
 
 .btn-nav {
-
+    border-radius: 20px;
+    background-color: white;
+    padding: 5px 10px;
+    color: black;
 }
