@@ -12,7 +12,20 @@ img {
     --blue: rgb(0,132,253);
     --lightblue: rgb(181,221,255);
     --purple: rgb(151,146,228);
-    --dark: rgb(151,146,228);
-    --yellow: rgb(151,146,228);
+    --dark: rgb(51,51,51);
+    --yellow: rgb(253,193,95);
 }
 
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
