@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+:root {
+    --blue: rgb(0,132,253);
+    --lightblue: rgb(181,221,255);
+    --purple: rgb(151,146,228);
+    --dark: rgb(151,146,228);
+    --yellow: rgb(151,146,228);
+}
+
