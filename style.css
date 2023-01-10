@@ -86,3 +86,17 @@ header {
     padding: 5px 10px;
     color: black;
 }
+
+/********** 
+MAIN
+************/
+
+/* first section */
+
+.card {
+    background-color: var(--lightblue);
+    padding: 20px;
+    min-height: 50px;
+    border: 1px solid;
+    border-radius: 20px;
+}
