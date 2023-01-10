@@ -44,6 +44,18 @@ a {
    display: none;
 }
 
+/************
+MEDIA QUERY
+**************/
+
+@media screen and (max-width: 1160px) {
+
+    .container {
+        margin: 0 30px;
+    }
+
+}
+
 @media screen and (max-width: 810px) {
     
     .nav-item,
@@ -51,9 +63,32 @@ a {
         display: none;
     }
 
-    .col-nav > i {
-        color: white;
+    .container {
+        margin: 0 50px;
     }
+
+    .align-card-phone {
+        flex-direction: column;
+        gap: 20px;
+        text-align: left;
+    }
+
+    .align-card-phone > .phone {
+        padding: 0;
+        width: 300px;
+    }
+
+    .phone img {
+        margin-left: -30px;
+    }
+
+    .media-card {
+        height: 602px;
+    }
+}
+
+@media screen and {
+    
 }
 
 /********** 
@@ -102,24 +137,25 @@ MAIN
 }
 
 .col-3 {
-    flex-basis: calc(100% / 3);
+    flex-basis: calc(100% / 3 - (20px));
 }
 
 .col-2 {
-    flex-basis: calc(100% * 2/3);
+    flex-basis: calc(100% * 2/3 );
 }
 
 .row-card {
+    margin: 80px 0;
     gap: 20px;
 }
 
 .name-card {
     color: var(--blue);
-    padding: 10px 0;
+    padding: 25px 0;
 }
 
 .col-3 i {
-    font-size: 50px;
+    font-size: 70px;
     color: var(--blue);
 }
 
@@ -132,18 +168,18 @@ MAIN
 }
 
 .part-left {
-    flex-basis: 50%;
+    flex-basis: calc(100% / 2);
     text-align: left;
 }
 
 .phone {
-    flex-basis: 50%;
+    flex-basis: calc(100% / 2);
     padding: 0 40px;
 }
 
 .part-left > p {
     padding: 20px 0;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .phone > img {
