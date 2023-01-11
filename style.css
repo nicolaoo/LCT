@@ -363,8 +363,29 @@ MAIN
 
 /* four section of benefits */
 
+
+.background-benefit {
+    background-color: var(--purple);
+    margin: 80px 0;
+}
+
+.container-benefit {
+    padding: 50px 0;
+}
+
+.row-benefit {
+    gap: 20px;
+}
+
 .col-benefit {
     flex-basis: 100%;
+}
+
+.col-benefit h2 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 30px;
 }
 
 .col-30-benefit {
@@ -395,5 +416,20 @@ MAIN
 
 .col-30-benefit p {
     color: var(--grey);
+}
 
+@media screen and (max-width: 810px) {
+    
+    .col-30-benefit {
+        flex-basis: calc(100%/2 - 10px);
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .col-30-benefit {
+        flex-basis: 100%;
+    }
+    
 }
