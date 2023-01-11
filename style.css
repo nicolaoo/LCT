@@ -86,7 +86,7 @@ MEDIA QUERY
         height: 602px;
     }
 
-    /* ection planning and development */
+    /* section planning and development */
 
     .container-planning .row-planning{
         flex-wrap: wrap;
@@ -94,12 +94,12 @@ MEDIA QUERY
 
     .row-planning .col-50-card {
         flex-basis: 100%;
-        margin: 50px;
+        margin: 15px 30px;
     }
 
     .row-planning .col-50 {
         flex-basis: 100%;
-        margin: 50px;
+        margin: 15px 30px;
     }    
 }
 
@@ -120,6 +120,25 @@ MEDIA QUERY
         height: 100%;
     }
 
+    /* section planning and development */
+
+    .container-planning .row-planning {
+        gap: 0;
+    }
+
+    .row-planning .col-50-card {
+        flex-basis: 100%;
+        margin: 15px 30px;
+    }
+
+    .row-planning .col-50 {
+        flex-basis: 100%;
+        margin: 15px 30px;
+    }    
+
+    .col-50-card .card-develop {
+        padding: 15px;
+    }
 }
 
 /********** 
