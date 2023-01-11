@@ -538,3 +538,29 @@ MAIN
     }
     
 }
+
+/************* 
+    FOOTER
+***********/
+
+
+.background-purple {
+    background-color: var(--purple);
+}
+
+.background-black {
+    background-color: var(--dark);
+}
+
+.container-footer {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.row-getstarter {
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+}
