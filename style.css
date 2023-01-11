@@ -298,3 +298,38 @@ MAIN
     padding: 10px 13px;
     margin-top: 30px;
 }
+
+
+/* three section of testimonials */
+
+
+.col-testimonials-title,
+.col-testimonials {
+    padding: 25px;
+    background-color: var(--purple);
+    border-radius: 25px;
+    display: flex;
+    gap: 4rem;
+}
+
+.row-testimonials {
+    gap: 20px;
+    flex-direction: column;
+}
+
+.personal-photo{
+    flex-basis: 20%;
+}
+
+.personal-photo > img {
+    border-radius: 50px;
+}
+
+.desc-testimonials{
+    flex-basis: 80%;
+    color: white;
+}
+
+.desc-testimonials p {
+    padding: 20px 0;
+}
