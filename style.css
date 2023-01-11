@@ -274,6 +274,7 @@ MAIN
 
 .col-50 p {
     color: white;
+    line-height: 30px;
 }
 
 .col-50-card {
@@ -342,6 +343,7 @@ MAIN
 
 .desc-testimonials p {
     padding: 20px 0;
+    line-height: 30px;
 }
 
 @media screen and (max-width:600px) {
@@ -416,6 +418,7 @@ MAIN
 
 .col-30-benefit p {
     color: var(--grey);
+    line-height: 30px;
 }
 
 @media screen and (max-width: 810px) {
@@ -433,5 +436,60 @@ MAIN
     .col-30-benefit {
         flex-basis: 100%;
     }
-    
+}
+
+
+/* five section of About us */
+
+
+.row-aboutus {
+    flex-wrap: nowrap;
+    gap: 100px;
+    margin: 150px 0;
+}
+
+.col-80-aboutus,
+.col-20-aboutus {
+    display: flex;
+}
+
+.col-80-aboutus {
+    flex-basis: 80%;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.col-20-aboutus {
+    flex-basis: 20%;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.title-aboutus {
+    color: var(--purple);
+    font-size: 40px;
+}
+
+.text-aboutus {
+    color: var(--grey);
+    line-height: 45px;
+}
+
+.col-20-aboutus strong {
+    line-height: 40px;
+    color: var(--purple);
+    font-size: 23px;
+}
+
+.col-20-aboutus img {
+    border-radius: 100%;
+}
+
+.btn-aboutus {
+    border: 0;
+    background-color: var(--purple);
+    color: white;
+    padding: 10PX 15px;
+    border-radius: 50px;
+    font-size: 15px;
 }
