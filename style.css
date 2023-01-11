@@ -360,3 +360,15 @@ MAIN
         flex-basis: 50%;
     }
 }
+
+/* four section of benefits */
+
+.col-benefit {
+    flex-basis: 100%;
+}
+
+.col-30-bnefit {
+    flex-basis: calc(100%/3);
+
+}
+
