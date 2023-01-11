@@ -367,8 +367,33 @@ MAIN
     flex-basis: 100%;
 }
 
-.col-30-bnefit {
-    flex-basis: calc(100%/3);
-
+.col-30-benefit {
+    flex-basis: calc(100%/3 - 14px);
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
+.btn-benefit  {
+    color: white;
+    background-color: var(--purple);
+    padding: 10px 45px;
+    border: 0;
+    border-radius: 20px;
+}
+
+.col-30-benefit strong {
+    font-size: 50px;
+}
+
+.col-30-benefit strong,h4 {
+    color: var(--purple);
+}
+
+.col-30-benefit p {
+    color: var(--grey);
+
+}
