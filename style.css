@@ -63,6 +63,10 @@ MEDIA QUERY
         display: none;
     }
 
+    .col-nav > i {
+        
+    }
+
     .container {
         margin: 0 50px;
     }
@@ -332,8 +336,8 @@ MAIN
 }
 
 .personal-photo > img {
-    border-radius: 50px;
-    max-width: 190px;
+    border-radius: 80px;
+    max-width: 230px;
 }
 
 .desc-testimonials{
@@ -604,4 +608,20 @@ MAIN
     text-align: center;
     padding: 0 70px;
 
+}
+
+@media screen and (max-width:620px) {
+
+    .background-purple {
+        padding: 0 20px;
+        text-align: center;
+    }
+    
+    .text-started {
+        padding: 0;
+    }
+
+    .row-copyright  {
+        padding: 30px;
+    }
 }
