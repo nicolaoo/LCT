@@ -588,3 +588,20 @@ MAIN
     font-size: 5px;
     color: white;
 }
+
+.row-copyright {
+    gap: 25px;
+    padding: 40px 110px;
+    text-align: center;
+    color: white;
+}
+
+.row-copyright u {
+    color: var(--purple);
+}
+
+.text-started {
+    text-align: center;
+    padding: 0 70px;
+
+}
